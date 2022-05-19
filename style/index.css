@@ -1,0 +1,178 @@
+/* */
+*{
+    padding: 0;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    overflow-x: hidden;
+}
+#cabecalho{
+    width: 100%;
+    background-color: #fafafa;
+    display: flex;
+}
+#logo-tipo img{
+    height: 80px;
+}
+
+/**/
+
+/* Banner - slider */
+#banner{
+    width: 100%;
+    background-color: #0c0c0c;
+}
+
+#banner img{
+    margin-top: 30px;
+    width: 100%;
+    border-radius: 60px 0px 60px 0px;
+    height: 600px;
+    object-fit: scale-down;
+    display: flexbox;
+    
+}
+
+/* area curso e geral*/
+#area-curso{
+    display: flex;
+}
+
+
+
+/* Menu e lista do cabecalho*/
+#menu{
+    width: 100%;
+    list-style: none;
+    border: 0px solid #ca6464;
+    float: left;
+}
+#menu, ul li{
+    padding-left: 50px;
+    
+}
+#menu li{
+    position: relative;
+    float: left;
+    border-right: 1px solid #fffafa;
+}
+
+#menu li a{
+    color: #333;
+    text-decoration: none;
+    padding: 5px 20px;
+    display: flex;
+    
+}
+#menu li a:hover{
+    background-color: #df0d0d;
+    color: #0000ff;
+    text-shadow: 0px 0px 5px #fff;
+}
+
+#menu li:hover ul, #menu li.over ul{
+    display: block;
+    top: 50px;
+ 
+}
+
+/* projetando o submenu*/
+#menu li ul{
+    position: absolute;
+    top: 25px;
+    left: 0;
+    background-color: #fdfdfd;
+    display: none;
+}
+
+#menu li ul li{
+    position: relative;
+    border: 1px solid #afa0a0;
+    display: block;
+    width: 150px;
+}
+
+
+/* ul{padding} distcância entre o logo e o menu*/
+li{
+    display: inline-block;
+    top: 2px;
+}
+
+ul #home a{
+    color: #0000ff;
+}
+
+a{
+    color: #720d0d;
+    transition: all 1s;
+    margin: 15px; /* distância entre os menus*/
+    padding-bottom: 6px;
+}
+/* fim do menu e lista */
+
+main{
+    margin-top: 70px;
+    background-color: #726868;
+    margin: 25px;
+    border-radius: 10px;
+    
+}
+
+main #intro h1{
+    text-align: center;
+}
+#intro, h1{
+    padding-top: 5px;
+}
+
+main #intro p{
+    margin-left: 50px;
+}
+
+/* area do curso */
+#area-curso{
+    margin-top: 60px;
+    padding: 30px;
+    display: flex;
+    margin-right: 70px;
+}
+
+#card-curso .card-curso{
+    margin-left: 36px;
+    width: 350px;
+    margin-top: 36px;
+}
+
+#area-curso .card-curso img{
+    width: 100%;
+    border-radius: 15px 15px 15px 15px;
+    transition: all 2s;
+}
+    
+#area-curso .card-curso:hover img{
+    transform: rotate(20deg)
+}
+
+.card-curso .area-conteudo h1{
+    text-align: center;
+}
+#area-cursos .card-curso .area-conteudo{
+    margin: 100px
+}
+
+
+/* footer*/
+footer p{
+    text-align: center;
+    background-color: rgb(247, 104, 133);
+    color: #0000ff;
+    font-size: 13px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.area-vazia{
+    width: 100%;
+    background-color: #0000ff;
+}
