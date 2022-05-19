@@ -21,7 +21,7 @@ body{
 /* Banner - slider */
 #banner{
     width: 100%;
-    background-color: #0c0c0c;
+    
 }
 
 #banner img{
@@ -49,7 +49,7 @@ body{
     float: left;
 }
 #menu, ul li{
-    padding-left: 50px;
+    padding-left: 40px;
     
 }
 #menu li{
@@ -66,7 +66,7 @@ body{
     
 }
 #menu li a:hover{
-    background-color: #df0d0d;
+    background-color: #dfae0d;
     color: #0000ff;
     text-shadow: 0px 0px 5px #fff;
 }
@@ -84,13 +84,15 @@ body{
     left: 0;
     background-color: #fdfdfd;
     display: none;
+    z-index: 2;
 }
 
 #menu li ul li{
     position: relative;
-    border: 1px solid #afa0a0;
+    border: 0px solid #afa0a0;
     display: block;
-    width: 150px;
+    width: 200px;
+    padding-left: 5px;
 }
 
 
@@ -98,6 +100,7 @@ body{
 li{
     display: inline-block;
     top: 2px;
+    
 }
 
 ul #home a{
