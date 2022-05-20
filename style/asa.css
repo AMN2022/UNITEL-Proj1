@@ -47,15 +47,18 @@ body{
     list-style: none;
     border: 0px solid #ca6464;
     float: left;
+    z-index: 2px;
 }
 #menu, ul li{
     padding-left: 40px;
+    z-index: 2px;
+    
     
 }
 #menu li{
     position: relative;
     float: left;
-    border-right: 1px solid #fffafa;
+    border-right: 0px solid #fffafa;
 }
 
 #menu li a{
@@ -114,6 +117,59 @@ a{
     padding-bottom: 6px;
 }
 /* fim do menu e lista */
+
+/* banner e intro*/
+main{
+    
+}
+
+#banner img{
+    height: 200px;
+}
+
+
+/* manipulando a apresentação */
+#apresentacao{
+    padding-top: 80px;
+    padding-left: 20px;
+}
+#apresentacao h1{
+    color: #ee0b0b;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+} 
+#apresentacao h2{
+    color: #0000ff;
+    font-size: 28px;
+    padding-left: 30px;
+
+}
+/* area de manipulação da area apresentação dos canais.*/
+.portal{
+    display: flex;
+    padding-left: 30px;
+}
+.portal img{
+    height: 60px;
+}
+.area-conteudo{
+    padding-left: 35px;
+}
+
+/* Formulário*/
+legend{
+    text-align: center;
+}
+
+fieldset{
+    background-color: #7171ce;
+    border-radius: 8px 8px 8px 8px;
+    
+}
+input{
+    margin: 10px;
+    size: 50px;
+}
+
 
 
 

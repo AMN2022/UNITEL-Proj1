@@ -27,6 +27,7 @@ body{
     width: 100%;
     list-style: none;
     float: left;
+    z-index: 1px;
 }
 #menu, ul li{
     padding-left: 50px;
