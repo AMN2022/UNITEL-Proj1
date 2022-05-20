@@ -94,6 +94,105 @@ a{
 }
 /* fim do menu e lista */
 
+/*Banner e imagem autor, conteúdo */
+#banner img{
+    height: 500px;
+    border-radius: 360px;
+    }
+
+    #intro{
+        width: 40%;
+    }
+#intro h1{
+    font-size: 30px;
+    font-family: 'Gill Sans';
+    padding-left: 50px;
+    color: #0000ff;
+    
+}
+#intro p{
+    margin: 1px;
+    font-size: 20px;
+    text-align: left;
+    font-family: fantasy;
+}
+
+
+
+
+
+
+
+
+
+/* Formulário*/
+#formulario{
+    padding-left: 500px;
+    
+}
+
+#formulario form {
+    margin-top: 100px;
+    font-family: Verdana,Tahoma,sans-serif;
+    font-size: 15px;
+    background-color: #CC3300;
+    max-width: 400px;
+}
+
+#formulario h1 {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: #66FFFF;
+    text-shadow: 5px 5px 5px black;
+}
+
+#formulario input, textarea {
+    width: 200px;
+    padding: 10px;
+    color: black;
+    margin-left: 20px;
+    margin-top: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+}
+    
+#formulario input:hover, textarea:hover, input:focus, textarea:focus {
+    border-color: #000066;
+    box-shadow: 5px 0px 9px #FFFF00;
+    background-color: #66FFFF;
+    color: black;
+    font-weight: bold;
+}
+    
+#formulario .enviar {
+    background-color: #66FFFF;
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+     color: black;
+}
+    
+#formulario textarea {
+    width: 400px;
+    height: 120px;
+    line-height: 20px;
+    max-width: 400px;
+}
+    
+#formulario form label {
+    margin-left: 20px;
+    color: #881414;
+    font-weight: bold;
+} /* fim do formulário de contacto*/
+
+
+
+
 
 /* footer*/
 footer p{
