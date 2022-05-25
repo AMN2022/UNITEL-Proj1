@@ -13,26 +13,39 @@ body{
     display: flex;
 }
 #logo-tipo img{
-    height: 80px;
+    height: 50px;
 }
 
 /**/
 
 /* Banner - slider */
 #banner{
-    width: 100%;
-    margin-top: 5px;
+    width:100%;
     
 }
+
 #banner img{
+    margin-top: 1px;
     width: 100%;
+    
+    height:
+    object-fit: scale-down;
+    display: flexbox;
+    
 }
+
+/* area curso e geral*/
+#area-curso{
+    display: flex;
+}
+
+
 
 /* Menu e lista do cabecalho*/
 #menu{
     width: 100%;
     list-style: none;
-    border: 0px solid #ca6464;
+    border: 0px solid #fffafa;
     float: left;
 }
 #menu, ul li{
@@ -54,7 +67,7 @@ body{
 }
 #menu li a:hover{
     background-color: #dfae0d;
-    color: #0000ff;
+    color: #0db4ca;
     text-shadow: 0px 0px 5px #fff;
     padding-left: 10px;
 }
@@ -90,9 +103,13 @@ li{
     top: 2px;
     
 }
+ul{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large 10px;
+}
 
 ul #home a{
-    color: #0000ff;
+    color: #0db4ca;
 }
 
 a{
@@ -148,7 +165,7 @@ main{
 
 /* Formulário*/
 .formulario{
-     background-color: #7171ce;
+     background-color: orange;
     border-radius: 8px 8px 8px 8px;
     
     
@@ -182,7 +199,7 @@ input{
 footer p{
     padding: 30px;
     text-align: center;
-    background-color: #61595a;
+    background-color: black;
     color: #f1f1f5;
     font-size: 14px;
     font-family: serif;
@@ -190,5 +207,6 @@ footer p{
 
 .area-vazia{
     width: 100%;
-    background-color: #0000ff;
+    background-color: #380707;
+    height: 5px;
 }

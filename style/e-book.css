@@ -12,7 +12,7 @@ body{
     display: flex;
 }
 #logo-tipo img{
-    height: 80px;
+    height: 50px;
 }
 
 
@@ -42,7 +42,7 @@ body{
 }
 #menu li a:hover{
     background-color: #dfae0d;
-    color: #0000ff;
+    color: #0db4ca;
     text-shadow: 0px 0px 5px #fff;
     padding-left: 10px;
 }
@@ -80,7 +80,11 @@ li{
 }
 
 ul #home a{
-    color: #0000ff;
+    color: #0db4ca;
+}
+ul{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large 10px;
 }
 
 a{
@@ -100,6 +104,13 @@ a{
     margin: 40px;
 }
 
+/* Section e Loja*/
+section img{
+    height: 400px;
+    padding-left: 100px;
+    padding-bottom: 100px;
+}
+
 
 
 /* footer*/
@@ -114,5 +125,6 @@ footer p{
 
 .area-vazia{
     width: 100%;
-    background-color: #0000ff;
+    background-color: #3aee7f;
+    height: 5px;
 }
