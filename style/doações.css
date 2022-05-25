@@ -18,10 +18,24 @@ body{
 /**/
 
 /* Banner - slider */
+#banner{
+    width:100%;
+    
+}
 
+#banner img{
+    margin-top: 30px;
+    width: 100%;
+    border-radius: 60px 0px 60px 0px;
+    object-fit: scale-down;
+    display: flexbox;
+    
+}
 
 /* area curso e geral*/
-
+#area-curso{
+    display: flex;
+}
 
 
 
@@ -29,10 +43,11 @@ body{
 #menu{
     width: 100%;
     list-style: none;
+    border: 0px solid #ca6464;
     float: left;
 }
 #menu, ul li{
-    padding-left: 50px;
+    padding-left: 100px;
     
 }
 #menu li{
@@ -44,7 +59,7 @@ body{
 #menu li a{
     color: #333;
     text-decoration: none;
-    padding: 5px 20px;
+    padding: 2px;
     display: flex;
     
 }
@@ -52,6 +67,7 @@ body{
     background-color: #dfae0d;
     color: #0000ff;
     text-shadow: 0px 0px 5px #fff;
+    padding-left: 10px;
 }
 
 #menu li:hover ul, #menu li.over ul{
@@ -67,14 +83,15 @@ body{
     left: 0;
     background-color: #fdfdfd;
     display: none;
+    z-index: 2;
 }
 
 #menu li ul li{
     position: relative;
     border: 0px solid #afa0a0;
     display: block;
-    width: 150px;
-    padding-left: 5px;
+    width: 200px;
+    padding-left: 45px;
 }
 
 
@@ -82,6 +99,7 @@ body{
 li{
     display: inline-block;
     top: 2px;
+    
 }
 
 ul #home a{
@@ -100,11 +118,12 @@ a{
 
 /* footer*/
 footer p{
+    padding: 30px;
     text-align: center;
-    background-color: rgb(247, 104, 133);
-    color: #0000ff;
-    font-size: 13px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #61595a;
+    color: #f1f1f5;
+    font-size: 14px;
+    font-family: serif;
 }
 
 .area-vazia{
