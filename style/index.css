@@ -20,7 +20,7 @@ body{
 
 /* Banner - slider */
 #banner{
-    width: 100%;
+    width:100%;
     
 }
 
@@ -28,7 +28,7 @@ body{
     margin-top: 30px;
     width: 100%;
     border-radius: 60px 0px 60px 0px;
-    height: 600px;
+    height:
     object-fit: scale-down;
     display: flexbox;
     
@@ -49,7 +49,7 @@ body{
     float: left;
 }
 #menu, ul li{
-    padding-left: 40px;
+    padding-left: 100px;
     
 }
 #menu li{
@@ -61,7 +61,7 @@ body{
 #menu li a{
     color: #333;
     text-decoration: none;
-    padding: 5px 20px;
+    padding: 2px;
     display: flex;
     
 }
@@ -69,6 +69,7 @@ body{
     background-color: #dfae0d;
     color: #0000ff;
     text-shadow: 0px 0px 5px #fff;
+    padding-left: 10px;
 }
 
 #menu li:hover ul, #menu li.over ul{
@@ -92,7 +93,7 @@ body{
     border: 0px solid #afa0a0;
     display: block;
     width: 200px;
-    padding-left: 5px;
+    padding-left: 45px;
 }
 
 
@@ -117,7 +118,7 @@ a{
 
 main{
     margin-top: 70px;
-    background-color: #726868;
+    background-color: #fdf9f9;
     margin: 25px;
     border-radius: 10px;
     
@@ -125,54 +126,59 @@ main{
 
 main #intro h1{
     text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #intro, h1{
     padding-top: 5px;
 }
 
 main #intro p{
+    color: black;
     margin-left: 50px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: larger;
+    
 }
 
 /* area do curso */
 #area-curso{
-    margin-top: 60px;
-    padding: 30px;
+    width: 100%;
+    
+   
     display: flex;
-    margin-right: 70px;
+   
 }
 
 #card-curso .card-curso{
-    margin-left: 36px;
-    width: 350px;
-    margin-top: 36px;
+    margin-left: px;
+    
+    margin-top: px;
 }
 
 #area-curso .card-curso img{
     width: 100%;
-    border-radius: 15px 15px 15px 15px;
-    transition: all 2s;
-}
-    
-#area-curso .card-curso:hover img{
-    transform: rotate(20deg)
+    border-radius: 30px;
+    padding-right: 10px;
 }
 
 .card-curso .area-conteudo h1{
+    color: black;
     text-align: center;
 }
+
 #area-cursos .card-curso .area-conteudo{
-    margin: 100px
+    margin:
 }
 
 
 /* footer*/
 footer p{
+    padding: 30px;
     text-align: center;
-    background-color: rgb(247, 104, 133);
-    color: #0000ff;
-    font-size: 13px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #61595a;
+    color: #f1f1f5;
+    font-size: 14px;
+    font-family: serif;
 }
 
 .area-vazia{
