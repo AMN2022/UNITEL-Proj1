@@ -20,25 +20,13 @@ body{
 
 /* Banner - slider */
 #banner{
-    width:100%;
-    
-}
-
-#banner img{
-    margin-top: 30px;
     width: 100%;
-    border-radius: 60px 0px 60px 0px;
-    object-fit: scale-down;
-    display: flexbox;
+    margin-top: 5px;
     
 }
-
-/* area curso e geral*/
-#area-curso{
-    display: flex;
+#banner img{
+    width: 100%;
 }
-
-
 
 /* Menu e lista do cabecalho*/
 #menu{
@@ -117,11 +105,17 @@ a{
 
 /* banner e intro*/
 main{
-    
+    background-color: #dcf8fa;
 }
 
-#banner img{
-    height: 200px;
+#intro{
+    
+}
+#intro p{
+    padding: 10px;
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
 }
 
 
@@ -153,17 +147,31 @@ main{
 }
 
 /* Formulário*/
+.formulario{
+     background-color: #7171ce;
+    border-radius: 8px 8px 8px 8px;
+    
+    
+}
+#form{
+    padding: 10px;
+    text-align: justify;
+    font-size: larger;
+    
+}
 legend{
     text-align: center;
+    color: #720707;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
 }
 
 fieldset{
-    background-color: #7171ce;
-    border-radius: 8px 8px 8px 8px;
     
 }
 input{
     margin: 10px;
+    
     
 }
 
