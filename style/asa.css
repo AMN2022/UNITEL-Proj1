@@ -174,8 +174,10 @@ main{
     padding: 10px;
     text-align: justify;
     font-size: larger;
+  
     
 }
+
 legend{
     text-align: center;
     color: #720707;
@@ -183,15 +185,11 @@ legend{
     
 }
 
-fieldset{
-    
-}
 input{
     margin: 10px;
     
     
 }
-
 
 
 

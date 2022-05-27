@@ -1,4 +1,4 @@
-*{
+{
     padding: 0;
 }
 body{
@@ -117,13 +117,28 @@ a{
     padding-bottom: 6px;
 }
 /* fim do menu e lista */
+#intro{
+    margin: 150px;
+   
+}
+#intro h1{
+    color: #000055;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+#intro p{
+    text-align: center;
+    color: black;
+}
+
 
 
 /* footer*/
 footer p{
     padding: 30px;
     text-align: center;
-    background-color: #61595a;
+    background-color: #000000;
     color: #f1f1f5;
     font-size: 14px;
     font-family: serif;

@@ -111,13 +111,41 @@ section img{
     padding-bottom: 100px;
 }
 
-
-
+form h1{
+    text-align: center;
+    color: #0000ff;
+    font-family: serif;
+    font-size: medium;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+form {
+    text-align: center;
+    height: 10;
+    background-color: #eeeef5;
+    margin: 40px;
+    border-radius: 20px;
+}
+form #email{
+    padding-left: 20px;
+}
+form #tel{
+    margin-right: 4px;
+}
+form #morada{
+    padding-right: 20px;
+}
+form #caixa{
+    margin-right: 21px;
+}
+form .button{
+    background-color: #4b4be7
+}
 /* footer*/
 footer p{
     padding: 30px;
     text-align: center;
-    background-color: #61595a;
+    background-color: #000000;
     color: #f1f1f5;
     font-size: 14px;
     font-family: serif;

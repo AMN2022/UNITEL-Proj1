@@ -1,6 +1,6 @@
 var produtos = [
     {
-        imagem
+        imagem ''
         nome:"",
         texto:"",
     }
